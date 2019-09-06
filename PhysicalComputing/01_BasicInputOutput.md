@@ -24,7 +24,7 @@ The resistor is a 10k ohm, or something close to that value like 12k will also d
 
 Here is a simple program to get some input from the button:
 
-```cpp
+```python
 # simplebutton.py
 
 from gpiozero import button
@@ -47,7 +47,7 @@ A transition is a clever little mechanism that is designed to detect when someth
 
 Try the program below which has some additional lines of code:
 
-```cpp
+```python
 # statechangedetect.py
 
 from gpiozero import button
@@ -78,7 +78,7 @@ A good starting resistance to use is 470Ω, if the LED is too dull, try a lower 
 
 Try entering the code below:
 
-```cpp
+```python
 # simpleLED.py
 
 from gpiozero import LED
